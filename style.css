@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #2600ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 2px solid #000;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #4491ae;
+}
+
+.con {
+    margin-left: 300px; 
+    border: 2px solid #000;
+}
+
+#topic {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#profile {
+    width: 180px; 
+    height: 200px; 
+    padding: 70px;
+}
+img{
+    border-radius: 50%;
+}
+
+#content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#description{
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#personal {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#contact {
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+#edu {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#tech {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+
+#project {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#leader {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#industry {
+    background-color: #cccccc; 
+    padding: 20px;
+}
